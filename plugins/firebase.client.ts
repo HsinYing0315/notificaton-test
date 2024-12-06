@@ -19,6 +19,8 @@ export default defineNuxtPlugin((nuxtApp) => {
     apiKey: config.firebaseApiKey,
     authDomain: config.firebaseAuthDomain,
     projectId: config.firebaseProjectId,
+    appId: config.firebaseAppId,
+    messagingSenderId: config.firebaseMessagingSenderId,
     storageBucket: "notification-test-88e92.appspot.com",
   };
 
