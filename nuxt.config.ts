@@ -33,14 +33,9 @@ export default defineNuxtConfig({
     }
   },
   server: {
-    https: {
-      key: fs.readFileSync(path.resolve(__dirname, "localhost-key.pem")),
-      cert: fs.readFileSync(path.resolve(__dirname, "localhost.pem")),
-    },
+    // https: {
+    //   key: fs.readFileSync(path.resolve(__dirname, "localhost-key.pem")),
+    //   cert: fs.readFileSync(path.resolve(__dirname, "localhost.pem")),
+    // },
   },
-  nitro: {
-    firebase: {
-      gen: 2
-    }
-  }
 } as NuxtConfig)
